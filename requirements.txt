@@ -1,0 +1,4 @@
+jupyter
+boto3
+requests
+progressbar2
