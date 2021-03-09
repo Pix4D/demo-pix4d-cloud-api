@@ -25,6 +25,15 @@ The code only uses standard publicly available libraries, and demonstrates a sim
 
 ### Create a python virtualenv
 
+Make sure that you have Python version from `.python-version` installed on your machine. 
+For example, to check what versions of Python you have available:
+
+```bash
+pyenv versions
+```
+
+Then create and activate the virtualenv:
+
 ```bash
 $ virtualenv -p python3.6 venv
 $ . venv/bin/activate
